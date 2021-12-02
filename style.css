@@ -3,6 +3,7 @@
     left: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
 
 }
 
@@ -38,5 +39,19 @@
 .container .sidebar span:hover{
    color: #fff;
    transition: 0.5s;
-   
+
+}
+
+.container .sidebar ul li a{
+    color: #fff;
+}
+
+.container .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid black;
+    transition: 0.5s;
+}
+
+.container .sidebar ul li:hover{
+    background: black;
 }
