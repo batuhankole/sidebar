@@ -1,4 +1,5 @@
 *{
+    margin: 0;
     padding: 0;
     left: 0;
     box-sizing: border-box;
@@ -7,16 +8,16 @@
 
 }
 
-.container .sidebar{
+.box .sidebar{
     position: fixed;
     width: 250px;
     height: 100%;
     background: #3b5998;
-    padding: 30px 0 ;
+    padding: 30px 10px;
 
 }
 
-.container .sidebar h2{
+.box .sidebar h2{
     color: #fff;
     text-transform: uppercase;
     text-align: center;
@@ -26,37 +27,37 @@
 
 }
 
-.container .sidebar h2 span{
+.box .sidebar h2 span{
     color: #f2b354;
 
 }
 
-.container .sidebar h2:hover{
+.box .sidebar h2:hover{
     color: #f2b354;
 }
 
 
-.container .sidebar span:hover{
+.box .sidebar span:hover{
    color: #fff;
    transition: 0.5s;
 
 }
 
-.container .sidebar ul li a{
+.box .sidebar ul li a{
     color: #fff;
 }
 
-.container .sidebar ul li {
+.box .sidebar ul li {
     padding: 15px;
     border-bottom: 1px solid black;
     transition: 0.5s;
 }
 
-.container .sidebar ul li:hover{
+.box .sidebar ul li:hover{
     background: black;
 }
 
-.container .sidebar .social-media{
+.box .sidebar .social-media{
      position: absolute;
      bottom: 0;
      left: 50%;
@@ -64,7 +65,7 @@
      display: flex;
 }
 
-.container .sidebar .social-media a{
+.box .sidebar .social-media a{
     display: block;
     width: 40px;
     background: black ;
